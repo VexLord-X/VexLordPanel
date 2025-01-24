@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Veppuz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Banner dengan gambar -->
+    <div class="banner">
+        <img src="VEX long - Copy.jpg" alt="Foto Banner" class="banner-image">
+    </div>
+    
+    <div class="profile-card">
+        <!-- Foto profil -->
+        <div class="profile-photo">
+            <img src="VEX log GREEN.jpg" alt="Foto Profile" class="profile-image">
+        </div>
+        <div class="about">
+            <h2>About Veppuz</h2>
+            <p>"As dark as the night, there will surely be moonlight" - Vex</p>
+            <hr>
+            <p><strong>Names:</strong> Veppuz, Vex, Vex_Lord, Xtriczie</p>
+            <p><strong>Pronouns:</strong> He/him, They</p>
+            <p><strong>Age:</strong> 14 years</p>
+            <p><strong>Characteristic:</strong> Cooperative, Cheerful, Funny, Serious</p>
+            <pclass="button" onclick="showMore()">others...</p>
+            <p id="moreText" class="hidden-text">
+                - Pokemon lover <br>
+                - Chesee and also Matcha lover <br>
+                - FPS and Strategy game <br>
+                - Cat and Wolf lover (not a furry ;-;) <br>
+                <br>
+                Astronomy? Physic? Technology? And maybe Chemistry? I love that all
+            </p>
+
+        </div>
+    </div>
+
+    <script>
+        function showMore() {
+            var moreText = document.getElementById("moreText");
+            if (moreText.style.display === "none") {
+                moreText.style.display = "block"; // Tampilkan teks
+            } else {
+                moreText.style.display = "none"; // Sembunyikan jika diklik lagi
+            }}
+
+    </script>
+    
+    <div class="links">
+        <h3>Links:</h3>
+        <ul>
+            <li><a href="https://github.com/VexLord-X">GitHub</a></li>
+            <li><a href="https://www.youtube.com/@Veppuzz">YouTube</a></li>
+            <li><a href="https://discordapp.com/users/938709294843564074">Discord</a></li>
+            <li><a href="https://discordapp.com/users/938709294843564074">Spotify</a></li>
+        </ul>
+    </div>
+    
+
+    <div class="others">
+        <h3>Others:</h3>
+        <div class="orange-box">
+        <a href="https://www.bandlab.com/veppuz_mk" target="_blank">BandLab</a>
+    </div>
+    </div>
+</body>
+</html>
