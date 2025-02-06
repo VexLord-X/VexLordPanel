@@ -5,51 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata Veppuz</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Banner dengan gambar -->
     <div class="banner">
-        <img src="VEX long - Copy.jpg" alt="Foto Banner" class="banner-image">
+        <img src="Vex long.jpg" alt="Foto Banner" class="banner-image">
     </div>
     
-    <div class="profile-card">
+    <div class="profile-card hidden">
         <!-- Foto profil -->
         <div class="profile-photo">
             <img src="VEX log GREEN.jpg" alt="Foto Profile" class="profile-image">
         </div>
-        <div class="about">
+        <div class="about hidden">
             <h2>About Veppuz</h2>
             <p>"As dark as the night, there will surely be moonlight" - Vex</p>
             <hr>
             <p><strong>Names:</strong> Veppuz, Vex, Vex_Lord, Xtriczie</p>
             <p><strong>Pronouns:</strong> He/him, They</p>
-            <p><strong>Age:</strong> 14 years</p>
+            <p><strong>Age:</strong> <span id="age"></span> years</p>
             <p><strong>Characteristic:</strong> Cooperative, Cheerful, Funny, Serious</p>
-            <pclass="button" onclick="showMore()">others...</p>
-            <p id="moreText" class="hidden-text">
-                - Pokemon lover <br>
-                - Chesee and also Matcha lover <br>
-                - FPS and Strategy game <br>
-                - Cat and Wolf lover (not a furry ;-;) <br>
-                <br>
-                Astronomy? Physic? Technology? And maybe Chemistry? I love that all
-            </p>
-
         </div>
     </div>
-
-    <script>
-        function showMore() {
-            var moreText = document.getElementById("moreText");
-            if (moreText.style.display === "none") {
-                moreText.style.display = "block"; // Tampilkan teks
-            } else {
-                moreText.style.display = "none"; // Sembunyikan jika diklik lagi
-            }}
-
-    </script>
     
-    <div class="links">
+    <div class="links hidden">
         <h3>Links:</h3>
         <ul>
             <li><a href="https://github.com/VexLord-X">GitHub</a></li>
@@ -60,9 +40,9 @@
     </div>
     
 
-    <div class="others">
+    <div class="others hidden">
         <h3>Others:</h3>
-        <div class="orange-box">
+            <div class="orange-box">
         <a href="https://www.bandlab.com/veppuz_mk" target="_blank">BandLab</a>
     </div>
     </div>
